@@ -1,0 +1,116 @@
+/* Basic Styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Potta One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background:#333;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #444f66;
+  color: cyan;
+  padding: 20px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.cheat-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #454644;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px #ccc;
+}
+
+h2 {
+  color: cyan;
+  margin-bottom: 10px;
+}
+pre {
+  background: #f4f4f4;
+  padding: 10px;
+  overflow: auto;
+}
+
+code {
+  font-family: "Fira Code", monospace;
+  color: #333;
+}
+
+
+.cheat-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+
+code:hover {
+  box-shadow: 0 0 1em #333;
+  scale: 1.02;
+}
+
+code {
+  background: #eee;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: monospace;
+}
+
+/* Green color for clicked button */
+
+.green {
+  background: #23f323 !important;
+  /* Green color */
+  color: rgb(255, 255, 255) !important;
+  transition: 0.3s;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  background: #007BFF;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+
+.toolbar-item .copy-to-clipboard-button {
+  color: #fdfdfd !important;
+  font-size: .8em;
+  padding: 0.4em .5em !important;
+  background: #f5f2f0;
+  background: rgba(224, 224, 224, .2);
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, .2);
+  border-radius: .5em;
+}

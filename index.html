@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML, CSS, JS Cheat Sheet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Bangers&family=Bree+Serif&family=Calistoga&family=Carter+One&family=DM+Serif+Display:ital@0;1&family=Domine:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif+Telugu:wght@100..900&family=Oleo+Script:wght@400;700&family=Rakkas&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="prism.css">
+    <script src="prism.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🔥 Cheat Sheet: HTML, CSS & JavaScript</h1>
+        <input type="text" id="search" placeholder="Search...">
+    </header>
+
+
+
+    <main>
+
+        <!-- HTML Basics  -->
+        <section class="cheat-section">
+            <h2>🛠️ HTML Basics</h2>
+            <pre class="cheat-box language-html">
+                <code>&lt;!DOCTYPE html&gt;  <!-- Document type declaration --></code>
+            </pre>
+
+            <pre class="cheat-box language-html">
+                <code>&lt;a href="https://example.com" target="_blank"&gt;Open in New Tab&lt;/a&gt;</code>
+            </pre>
+
+            <pre class="cheat-box language-html">
+                <code>&lt;img src="image.jpg" alt="Image Description" width="300" height="200"&gt;</code>
+            </pre>
+
+            <pre class="cheat-box language-html">
+                <code>&lt;table&gt;
+        &lt;tr&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Age&lt;/th&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;Amit&lt;/td&gt;&lt;td&gt;20&lt;/td&gt;&lt;/tr&gt;
+    &lt;/table&gt;</code>
+            </pre>
+
+            <pre class="cheat-box language-html">
+                <code>&lt;form action="/submit" method="POST"&gt;
+        &lt;input type="text" name="username" placeholder="Enter name" required&gt;
+        &lt;button type="submit"&gt;Submit&lt;/button&gt;
+    &lt;/form&gt;</code>
+            </pre>
+            <pre class="cheat-box  language-html">
+                <code>&lt;a href='url'&gt;Link&lt;/a&gt;</code>
+                
+            </pre>
+        </section>
+
+        <!-- CSS basics  -->
+
+        <section class="cheat-section">
+            <h2>🎨 CSS Basics</h2>
+            <pre class="cheat-box language-css">
+                <code>/* Center an element */
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }</code>
+            </pre>
+            <pre class="cheat-box language-css">
+                <code>/* Box Shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);</code>
+            </pre>
+
+            <pre class="cheat-box language-css">
+                <code>/* Gradient Background */
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);</code>
+            </pre>
+
+            <pre class="cheat-box language-css">
+                <code>/* Hover Effect */
+    button:hover {
+        background: #007bff;
+        color: #fff;
+    }</code>
+            </pre>
+
+            <pre class="cheat-box language-css">
+                <code>/* Media Query */
+    @media (max-width: 768px) {
+        body {
+            background: lightgray;
+        }
+    }</code>
+            </pre>
+            
+        </section>
+
+        <!-- JavaScript basics  -->
+
+        <section class="cheat-section ">
+            <h2>⚙️ JavaScript Basics</h2>
+            <pre class="cheat-box language-js">
+                <code>// Alert Box
+    alert("Hello, World!");</code>
+            </pre>
+            <pre class="cheat-box language-js">
+                <code>document.querySelector("p");</code>
+            
+            </pre>
+
+            <pre class="cheat-box language-js">
+                <code>// DOM Manipulation
+    document.getElementById("demo").innerText = "Hello!";</code>
+            </pre>
+
+            <pre class="cheat-box language-js">
+                <code>// Loop Example
+    for(let i = 0; i < 5; i++) {
+        console.log(i);
+    }</code>
+            </pre>
+
+            <pre class="cheat-box language-js">
+                <code>// Event Listener
+    document.querySelector("button").addEventListener("click", () => {
+        alert("Button clicked!");
+    });</code>
+            </pre>
+            <pre class="cheat-box language-js">
+                <code>// Fetch API Example
+    fetch("https://api.example.com")
+        .then(response => response.json())
+        .then(data => console.log(data));</code>
+            </pre>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
